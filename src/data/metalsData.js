@@ -1,0 +1,51 @@
+// CoinVault — Metals & Melt Value Data
+
+export const METALS_COINS=[
+      // SILVER COINS
+      {cat:"Silver",name:"Morgan Dollar",years:"1878–1921",weight:26.73,purity:0.90,asw:0.7734,metal:"silver",notes:"Most popular US silver dollar"},
+      {cat:"Silver",name:"Peace Dollar",years:"1921–1935",weight:26.73,purity:0.90,asw:0.7734,metal:"silver",notes:"Last circulating silver dollar"},
+      {cat:"Silver",name:"Walking Liberty Half",years:"1916–1947",weight:12.50,purity:0.90,asw:0.3617,metal:"silver",notes:"Most beloved US half dollar"},
+      {cat:"Silver",name:"Franklin Half Dollar",years:"1948–1963",weight:12.50,purity:0.90,asw:0.3617,metal:"silver",notes:"Full Bell Lines = premium"},
+      {cat:"Silver",name:"Kennedy Half (90%)",years:"1964 only",weight:12.50,purity:0.90,asw:0.3617,metal:"silver",notes:"Only year of 90% silver Kennedy"},
+      {cat:"Silver",name:"Kennedy Half (40%)",years:"1965–1970",weight:11.50,purity:0.40,asw:0.1479,metal:"silver",notes:"40% silver — all worth more than face"},
+      {cat:"Silver",name:"Barber Half Dollar",years:"1892–1915",weight:12.50,purity:0.90,asw:0.3617,metal:"silver",notes:"Scarce series"},
+      {cat:"Silver",name:"Washington Quarter (90%)",years:"1932–1964",weight:6.25,purity:0.90,asw:0.1808,metal:"silver",notes:"All pre-1965 quarters = silver"},
+      {cat:"Silver",name:"Standing Liberty Quarter",years:"1916–1930",weight:6.25,purity:0.90,asw:0.1808,metal:"silver",notes:"Full Head = premium"},
+      {cat:"Silver",name:"Barber Quarter",years:"1892–1916",weight:6.25,purity:0.90,asw:0.1808,metal:"silver",notes:"Scarce in high grade"},
+      {cat:"Silver",name:"Roosevelt Dime (90%)",years:"1946–1964",weight:2.50,purity:0.90,asw:0.0723,metal:"silver",notes:"All pre-1965 dimes = silver"},
+      {cat:"Silver",name:"Mercury Dime",years:"1916–1945",weight:2.50,purity:0.90,asw:0.0723,metal:"silver",notes:"Full Split Bands = premium"},
+      {cat:"Silver",name:"Barber Dime",years:"1892–1916",weight:2.50,purity:0.90,asw:0.0723,metal:"silver",notes:"1894-S = rarest US dime"},
+      {cat:"Silver",name:"Seated Liberty Dime",years:"1837–1891",weight:2.50,purity:0.90,asw:0.0723,metal:"silver",notes:"Several design types"},
+      {cat:"Silver",name:"Three-Cent Silver (Trime)",years:"1851–1873",weight:0.75,purity:0.75,asw:0.0181,metal:"silver",notes:"Smallest US silver coin"},
+      {cat:"Silver",name:"Twenty-Cent Piece",years:"1875–1878",weight:5.00,purity:0.90,asw:0.1447,metal:"silver",notes:"Short-lived denomination"},
+      {cat:"Silver",name:"Trade Dollar",years:"1873–1885",weight:27.22,purity:0.90,asw:0.7877,metal:"silver",notes:"Made for Asian trade — heavier than Morgan"},
+      {cat:"Silver",name:"Seated Liberty Dollar",years:"1840–1873",weight:26.73,purity:0.90,asw:0.7734,metal:"silver",notes:"Several design types"},
+      {cat:"Silver",name:"Wartime Nickel (35%)",years:"1942–1945",weight:5.00,purity:0.35,asw:0.0563,metal:"silver",notes:"Large mintmark above Monticello"},
+      // BULLION
+      {cat:"Bullion",name:"American Silver Eagle (1 oz)",years:"1986–present",weight:31.10,purity:0.999,asw:1.000,metal:"silver",notes:"Most popular US bullion coin"},
+      {cat:"Bullion",name:"American Silver Eagle (Proof)",years:"1986–present",weight:31.10,purity:0.999,asw:1.000,metal:"silver",notes:"Collector proof — same silver, higher premium"},
+      // GOLD COINS
+      {cat:"Gold",name:"American Gold Eagle (1 oz)",years:"1986–present",weight:33.93,purity:0.9167,asw:1.000,metal:"gold",notes:"Most popular US gold bullion"},
+      {cat:"Gold",name:"American Gold Eagle (1/2 oz)",years:"1986–present",weight:16.97,purity:0.9167,asw:0.500,metal:"gold",notes:""},
+      {cat:"Gold",name:"American Gold Eagle (1/4 oz)",years:"1986–present",weight:8.48,purity:0.9167,asw:0.250,metal:"gold",notes:""},
+      {cat:"Gold",name:"American Gold Eagle (1/10 oz)",years:"1986–present",weight:3.39,purity:0.9167,asw:0.100,metal:"gold",notes:"Most affordable Gold Eagle"},
+      {cat:"Gold",name:"American Gold Buffalo (1 oz)",years:"2006–present",weight:31.10,purity:0.9999,asw:1.000,metal:"gold",notes:"24-karat — purest US gold coin"},
+      {cat:"Gold",name:"Saint-Gaudens Double Eagle",years:"1907–1933",weight:33.44,purity:0.900,asw:0.9675,metal:"gold",notes:"Most beautiful US coin"},
+      {cat:"Gold",name:"Liberty Head Double Eagle ($20)",years:"1849–1907",weight:33.44,purity:0.900,asw:0.9675,metal:"gold",notes:"Type 1, 2 & 3 design variants"},
+      {cat:"Gold",name:"Liberty Head Eagle ($10)",years:"1838–1907",weight:16.72,purity:0.900,asw:0.4838,metal:"gold",notes:"No Motto and With Motto types"},
+      {cat:"Gold",name:"Indian Head Eagle ($10)",years:"1907–1933",weight:16.72,purity:0.900,asw:0.4838,metal:"gold",notes:"Incuse design"},
+      {cat:"Gold",name:"Liberty Head Half Eagle ($5)",years:"1839–1908",weight:8.36,purity:0.900,asw:0.2419,metal:"gold",notes:""},
+      {cat:"Gold",name:"Indian Head Half Eagle ($5)",years:"1908–1929",weight:8.36,purity:0.900,asw:0.2419,metal:"gold",notes:"Incuse design"},
+      {cat:"Gold",name:"Liberty Head Quarter Eagle ($2.50)",years:"1840–1907",weight:4.18,purity:0.900,asw:0.1210,metal:"gold",notes:""},
+      {cat:"Gold",name:"Indian Head Quarter Eagle ($2.50)",years:"1908–1929",weight:4.18,purity:0.900,asw:0.1210,metal:"gold",notes:"Incuse design"},
+      // PLATINUM
+      {cat:"Platinum",name:"American Platinum Eagle (1 oz)",years:"1997–present",weight:31.10,purity:0.9995,asw:1.000,metal:"platinum",notes:"Only US platinum coin"},
+      // CLAD / BASE
+      {cat:"Clad",name:"Lincoln Cent (Zinc)",years:"1982–present",weight:2.50,purity:0,asw:0,metal:"clad",notes:"Copper-plated zinc — worth face only"},
+      {cat:"Clad",name:"Lincoln Cent (Copper)",years:"1909–1982",weight:3.11,purity:0,asw:0,metal:"copper",notes:"95% copper — worth ~3¢ melt"},
+      {cat:"Clad",name:"Jefferson Nickel",years:"1938–present",weight:5.00,purity:0,asw:0,metal:"clad",notes:"Copper-nickel — worth face only"},
+      {cat:"Clad",name:"Roosevelt Dime (Clad)",years:"1965–present",weight:2.27,purity:0,asw:0,metal:"clad",notes:"Clad — worth face only"},
+      {cat:"Clad",name:"Washington Quarter (Clad)",years:"1965–present",weight:5.67,purity:0,asw:0,metal:"clad",notes:"Clad — worth face only"},
+      {cat:"Clad",name:"Kennedy Half Dollar (Clad)",years:"1971–present",weight:11.34,purity:0,asw:0,metal:"clad",notes:"Clad — worth face only"},
+      {cat:"Clad",name:"Sacagawea / Presidential Dollar",years:"2000–present",weight:8.10,purity:0,asw:0,metal:"clad",notes:"Manganese brass — worth face only"},
+    ];
